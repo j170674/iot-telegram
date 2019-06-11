@@ -13,3 +13,14 @@ A solução, como um todo, permite que o usuário tenha acesso a temperatura, um
 - LDR 
 - Nokia 5110 LCD display
 
+## Execução
+Após montar o esquemático e carregar o código .ino no NodeMCU, execute o bot.py caso queira subir o servidor.
+No aplicativo do Telegram, pesquise "MC853_bot".
+Uma vez na conversa com o bot, digite o comando desejado, caso não seja um comando, a informação será exibida no display.
+### Comandos
+- /temp - Retorna a temperatura e exibe no display.
+- /hum - Retorna a umidade e exibe no display.
+- /light - Retorna a % de Luminosidade e exibe no display.
+- /sensors - Escolha um sensor graficamente!
+- /cardapio - Descubra o Cardapio do dia e exiba no display.
+
