@@ -1,9 +1,10 @@
 # IOT - TELEGRAM
 Este projeto tem como o objetivo unir um Telegram bot com um dispositivo IoT.
 
-
+## Circuito
 ![Circuito](/imgs/circuit.jpg)
 
+## Esquemático
 ![Esquemático](/imgs/final_project_sketch.jpg)
 
 ## Resumo
