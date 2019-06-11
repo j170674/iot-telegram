@@ -2,7 +2,9 @@
 Este projeto tem como o objetivo unir um Telegram bot com um dispositivo IoT.
 
 
-![Circuit](/imgs/circuit.jpg)
+![Circuito](/imgs/circuit.jpg)
+
+![Esquemático](/imgs/final_project_sketch.jpg)
 
 ## Resumo
 A solução, como um todo, permite que o usuário tenha acesso a temperatura, umidade, luminosidade do ambiente e cardápio do restaurante universitário da Unicamp através do seu celular. Além disso é possivel mandar mensagens para o dispositivo.
@@ -23,4 +25,5 @@ Uma vez na conversa com o bot, digite o comando desejado, caso não seja um coma
 - /light - Retorna a % de Luminosidade e exibe no display.
 - /sensors - Escolha um sensor graficamente!
 - /cardapio - Descubra o Cardapio do dia e exiba no display.
+
 
