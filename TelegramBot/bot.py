@@ -210,6 +210,7 @@ def sensors_options(bot,update):
 
 def button_choice(bot,update):
     query = update.callback_query
+    query.edit_message_text(text="Opção recebida")
     user_choice = str(query.data)
     eval(user_choice)(bot,update.callback_query)
 
