@@ -53,7 +53,7 @@ class  Bandeco():
         if hoje != self.dia_cardapio:
             if self.dia_cardapio == []:
                 self.atualiza_tabela_cardapio()
-            elif not self.cardapio_em_dia(self.dia_cardapio,hoje):
+            elif not self.cardapio_em_dia(hoje):
                 self.atualiza_tabela_cardapio()
 
     def atualiza_tabela_cardapio(self):
